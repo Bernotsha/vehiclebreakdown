@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".termsandconditions"
+    android:background="#eeeeee">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/carparts"
+        android:alpha="0.07"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="80dp"
+        android:padding="20sp">
+        <TextView
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Create your Account"
+            android:theme="@style/t"/>
+        <TextView
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. If you already have an Account, then    SIGN-IN"
+            android:theme="@style/t"/>
+        <TextView
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Accept the runtime permissions"
+            android:theme="@style/t"/>
+        <TextView
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. This application establishes the connection between you and nearer mechanic shop."
+            android:theme="@style/t"/>
+        <TextView
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. You need to pay only travelling charges of the mechanic."
+            android:theme="@style/t"/>
+        <TextView
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. If you find any difficulties contact the administrator."
+            android:theme="@style/t"/>
+        <Button
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttondesign"
+            android:text="let's start"
+            android:id="@+id/termsbutton"
+            android:layout_marginTop="50dp"
+            android:textColor="#eeeeee"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

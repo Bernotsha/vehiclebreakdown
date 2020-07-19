@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="50dp"
+    android:background="#687466">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VEHICLE BREAKDOWN"
+            android:textColor="#323232"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_margin="15dp"
+            android:textSize="15dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/wheel"/>
+        <TextView
+            android:textColor="#323232"
+            android:layout_margin="10dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This Application requires the permission to access your location. Kindly press the button below to accept the conditions"
+            />
+        <Button
+            android:id="@+id/enable"
+            android:background="@drawable/buttondesign"
+            android:layout_margin="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#eeeeee"
+            android:text="Enable permission" />
+    </LinearLayout>
+
+</RelativeLayout>
